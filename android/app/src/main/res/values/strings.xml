@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">Tasks App</string>
+    <string name="facebook_app_id">999845680636499</string>
+    <string name="fb_login_protocol_scheme">fb999845680636499</string>
+</resources>

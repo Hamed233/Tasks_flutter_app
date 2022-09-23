@@ -1,0 +1,108 @@
+name: manage_life_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+  # Base
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  conditional_builder_null_safety: ^0.0.6
+  bloc: ^8.1.0
+  flutter_bloc: ^8.0.1
+  dio: ^4.0.0
+  hexcolor: ^2.0.3
+  shared_preferences: ^2.0.5
+  smooth_page_indicator: ^1.0.0+2
+  flutter_launcher_icons: ^0.10.0
+  http: ^0.13.3
+  flutter_settings_ui: ^2.0.1
+  contactus: ^1.2.0
+  cached_network_image: ^3.2.0
+  pie_chart: ^5.1.0
+  flutter_tts: ^3.3.3
+  sqflite: ^2.0.2
+  percent_indicator: ^4.0.0
+  #  path: ^1.8.1
+  flutter_share: ^2.0.0
+  ## Reminders ##
+  flutter_staggered_grid_view: ^0.6.1
+  flutter_local_notifications: ^9.5.3+1
+  auto_size_text: ^3.0.0
+  get_storage: ^2.0.2
+  flutter_color: ^2.0.0
+  modal_bottom_sheet: ^2.0.0
+  auto_animated: ^3.0.0
+  day_night_time_picker: ^1.0.2
+  lottie: ^1.0.1
+  #  flutter_svg: ^1.0.0
+  flutter_svg: ^1.0.3
+  flutter_slidable: ^1.2.0
+  syncfusion_flutter_datepicker: ^20.2.43
+  flutter_rating_bar: ^4.0.0
+  time_range_picker: ^2.1.0
+  rxdart: ^0.27.3
+  workmanager: ^0.4.1
+  flutter_quill: ^4.0.7
+  image_picker: ^0.8.4+10
+  flutter_native_timezone: ^2.0.0
+  logging: ^1.0.1
+  google_sign_in: ^5.2.4
+  flutter_facebook_auth: ^4.1.2
+  twitter_login: ^4.0.1
+  android_alarm_manager_plus: ^2.0.5
+  audioplayers: ^1.0.1
+  flutter_iconly: ^1.0.2
+  share: ^2.0.1
+  share_files_and_screenshot_widgets: ^1.0.6
+  simple_animations: ^4.0.2
+  supercharged: ^2.0.0
+
+  #firebase
+  firebase_core: ^1.6.0
+  firebase_auth: ^3.1.0
+  cloud_firestore: ^3.4.3
+  firebase_storage: ^10.0.3
+  firebase_messaging: ^12.0.1
+  circular_countdown_timer: ^0.2.1
+  ndialog: ^4.1.1
+  flutter_speed_dial: ^6.0.0
+
+  get_it: ^7.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_logo.png"
+  adaptive_icon_color: "#ffffff"
+  adaptive_icon_foreground: "assets/images/app_logo_for_ground.png"
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/onboard/
+    - assets/svg/
+    - assets/lottie/
+    - assets/audios/

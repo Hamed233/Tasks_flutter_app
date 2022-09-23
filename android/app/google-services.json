@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "173052858821",
+    "project_id": "tasks-app-86aa8",
+    "storage_bucket": "tasks-app-86aa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173052858821:android:84bb56807c4ea507e3bbac",
+        "android_client_info": {
+          "package_name": "com.example.manage_life_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173052858821-p82b5dbd3igf3k3d2udru9rp2adnupq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manage_life_app",
+            "certificate_hash": "574c51a385079ec7f620f493ce9ce1ff03192664"
+          }
+        },
+        {
+          "client_id": "173052858821-vtcaf49d44eeu12nfa61hrrfev75on93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2vbyAbS9qn98He7gc1ABwRzMxrcn7lB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173052858821-vtcaf49d44eeu12nfa61hrrfev75on93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
